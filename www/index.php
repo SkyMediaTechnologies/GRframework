@@ -1,5 +1,6 @@
 <?php
-// GR CMS
+// GRframework (version 1.0) PHP5 framework for web application
+// Autor: Mike Grigoriev & SkyMediaTechnologies Dev Team
 
 // Main file 
 
@@ -45,7 +46,5 @@ $registry->smarty = $smarty;
 
 
 $router = GR_Router::route(new GR_request);
-
-
 
 ?>
