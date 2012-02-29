@@ -24,7 +24,7 @@
 	</p>
 	<p style="color: #063053; font-size: 16px;  font-family: Georgia, Times, serif; line-height: 27px;">
 	<a href="http://skymediatechnologies.com/framework/" style="color: #063053;">http://skymediatechologies.com/framework/</a><br/>
-	<a href="http://github.com/gr-framework/" style="color: #063053;">http://github.com/gr-framework/</a>
+	<a href="http://github.com/SkyMediaTechnologies/GRframework" style="color: #063053;">http://github.com/SkyMediaTechnologies/GRframework</a>
 	</p>
  </div>
  
