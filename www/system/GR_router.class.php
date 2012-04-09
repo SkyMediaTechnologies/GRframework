@@ -1,4 +1,11 @@
 <?php
+
+// TODO: Алгоритм работы роутинга в GRframework 
+//  Поиск совпадения по регулярным выражениям иначе 
+//	перекидывает на выполнения функций по названию контроллера
+
+
+
 /* 
  * GRframework 
  * 
@@ -15,6 +22,7 @@
  */ 
 
 Class GR_Router {
+	
 	
     	public static function route (GR_Request $request ) {
     		$controller = $request ->getController();
@@ -43,7 +51,7 @@ Class GR_Router {
     		}	
     		else {
 
-    			/
+    			// TODO: тут необходимо избаивться от повторяющегося кода
     			$controllerFile = ROOT . DS . 'application' . DS . 'controllers'. DS .  '404.php';
     			
     			require_once ($controllerFile);
